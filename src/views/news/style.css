@@ -1,0 +1,88 @@
+body{
+    border: 5cm;
+    padding: 1cm;
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    background-color: #231f20;
+}
+
+.logo {
+    size: 11990px;
+}
+
+.navbar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: #333;
+    padding: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    z-index: 1000;
+    display: flex;
+    align-items: center;
+}
+
+.home-button {
+    position:relative;
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: bold;
+    margin-left: 625px;
+}
+
+.home-button:hover {
+    text-decoration:wavy;
+}
+
+.top{
+width: 20%;
+height: 20%;
+}
+
+main {
+    margin-top: 60px; /* Ensure content is not hidden under navbar */
+    padding: 20px;
+}
+
+.Noticias {
+    display: flex;
+    overflow-x: auto;
+    gap: 20px;
+    padding: 10px 0;
+}
+
+.infoNoticia {
+    min-width: 250px;
+    background-color: #f4f4f4;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+}
+
+.infoNoticia img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
+.ContNoticia {
+    padding: 10px;
+    text-align: center;
+}
+
+.ContNoticia h2 {
+    font-size: 18px;
+    margin: 10px 0 5px;
+}
+
+.ContNoticia p {
+    font-size: 14px;
+    color: #555;
+}
