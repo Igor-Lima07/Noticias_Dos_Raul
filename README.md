@@ -1,5 +1,5 @@
-#Sobre o Projeto
+# Sobre o Projeto
 
 Atividade de PW2
 
-[Clique aqui para acessar o site!!](noticias-dos-raul.vercel.app)
+[Clique aqui para acessar o site!!](https://noticias-dos-raul.vercel.app)
